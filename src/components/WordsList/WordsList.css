@@ -1,0 +1,20 @@
+.words-list-wrapper {
+    height: 50%;
+    text-align: center;
+    padding: 2% 0;
+    overflow-y: scroll;
+}
+.words-list-header {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.words-list__item {
+    list-style: none;
+    padding: 4px 0;
+}
+.words-list__item:nth-child(2n) {
+    background: red;
+}
+.words-list__item:nth-child(2n+1) {
+    background: yellow;
+}

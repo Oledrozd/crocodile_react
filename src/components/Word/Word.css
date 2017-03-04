@@ -1,0 +1,7 @@
+.word {
+    flex-basis: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'monaco', sans-serif;
+    font-size: 3rem;
+}

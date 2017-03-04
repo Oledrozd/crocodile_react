@@ -1,0 +1,21 @@
+.board {
+    flex-basis: 50%;
+    background: #ffd3fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+.logo-wrapper {
+    height: 20%;
+    flex-basis: 25%;
+}
+.logo-wrapper__logo {
+    max-width: 20%;
+    max-height: 100%;
+}
+.board__button-container {
+    flex-basis: 25%;
+    text-align: center;
+}

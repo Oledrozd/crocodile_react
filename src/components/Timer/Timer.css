@@ -1,0 +1,5 @@
+.timer {
+    flex-basis: 25%;
+    font-size: 3em;
+    transition: 1s;
+}

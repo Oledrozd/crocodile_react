@@ -1,0 +1,16 @@
+.results {
+    flex-basis: 25%;
+    background: #9fef9f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.results-list__item {
+    list-style: none;
+    font-size: 2em;
+    transition: .5s;
+}
+.results-list__item.results-list__item-active {
+    color: green;
+}
